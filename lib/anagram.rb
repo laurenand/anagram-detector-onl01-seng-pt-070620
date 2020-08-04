@@ -9,7 +9,7 @@ class Anagram
     array = []
     array.collect do |w|
       @word == w.split("")
-      binding.pry
     end
+    binding.pry
   end
 end
