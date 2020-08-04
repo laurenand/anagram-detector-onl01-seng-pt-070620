@@ -10,6 +10,6 @@ class Anagram
     array.collect do |w|
       @word == w.split("")
     end
-    binding.pry
+    
   end
 end
