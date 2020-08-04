@@ -8,9 +8,9 @@ class Anagram
   def match(array)
     
     array.collect do |w|
-      array = []
+      
       @word == w.split("")
     end
-    
+    array = []
   end
 end
