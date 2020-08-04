@@ -7,8 +7,8 @@ class Anagram
   end
   def match(array)
     array.collect do |w|
-      w.split("")
-      binding.pry 
+      @word == w.split("")
+      
     end
   end
 end
