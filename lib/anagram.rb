@@ -12,5 +12,6 @@ class Anagram
       @word == w.split("")
     end
     array = []
+    binding.pry
   end
 end
