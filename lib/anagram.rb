@@ -6,7 +6,7 @@ class Anagram
   end
   def match(array)
     array.collect do |w|
-      same_word.split("")
+      w.split("")
       binding.pry 
     end
   end
